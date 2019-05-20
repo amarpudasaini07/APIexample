@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
         return result;
     }
     String imageName;
+
     private void StrictMode(){
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
@@ -134,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void Save() {
+        SaveImageOnly();
         String name=etName.getText().toString();
         String desc=etDesc.getText().toString();
 
