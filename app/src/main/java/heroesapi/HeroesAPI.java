@@ -3,6 +3,7 @@ package heroesapi;
 import java.util.List;
 
 import model.Heroes;
+import model.ImageResponse;
 import okhttp3.MultipartBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
